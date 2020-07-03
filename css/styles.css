@@ -1,3 +1,9 @@
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -21,11 +27,7 @@
   height: 1.5em;
 }
 
-body {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
+
 div {
   width: 350px;
 }
