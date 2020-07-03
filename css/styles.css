@@ -54,12 +54,13 @@ input[type=checkbox].readmore+label:after {
   content: "more...";
 }
 
-/*input[type=checkbox].readmore + label + p {
+input[type=checkbox].readmore+label+p {
   max-height: 0;
   overflow: hidden;
   transition: 0.5s ease;
 }
-input[type=checkbox].readmore:checked {
+
+/*input[type=checkbox].readmore:checked {
   background: red;
 }
 input[type=checkbox].readmore:checked + label:after {
