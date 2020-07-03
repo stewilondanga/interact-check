@@ -64,10 +64,11 @@ input[type=checkbox].readmore:checked {
   background: red;
 }
 
-/*input[type=checkbox].readmore:checked + label:after {
+input[type=checkbox].readmore:checked+label:after {
   content: "less...";
 }
-input[type=checkbox].readmore:checked + label + p {
+
+/*input[type=checkbox].readmore:checked + label + p {
   max-height: 100px;
 }
 
