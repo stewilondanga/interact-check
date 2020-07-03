@@ -19,10 +19,11 @@ body {
   height: 1.5em;
 }
 
-/*div {
+div {
   width: 350px;
 }
-input[type=checkbox].image-expandable {
+
+/*input[type=checkbox].image-expandable {
   display: none;
 }
 input[type=checkbox].image-expandable + label {
