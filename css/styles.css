@@ -50,10 +50,11 @@ input[type=checkbox].readmore+label {
   text-decoration: underline;
 }
 
-/*input[type=checkbox].readmore + label:after {
+input[type=checkbox].readmore+label:after {
   content: "more...";
 }
-input[type=checkbox].readmore + label + p {
+
+/*input[type=checkbox].readmore + label + p {
   max-height: 0;
   overflow: hidden;
   transition: 0.5s ease;
