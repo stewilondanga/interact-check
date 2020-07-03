@@ -1,4 +1,4 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -20,6 +20,54 @@ body {
 .my_social a img {
   height: 1.5em;
 }
+
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+div {
+  width: 350px;
+}
+input[type=checkbox].image-expandable {
+  display: none;
+}
+input[type=checkbox].image-expandable + label {
+  float: left;
+  margin: 5px;
+}
+input[type=checkbox].image-expandable:checked {
+  background: red;
+}
+input[type=checkbox].image-expandable:checked + label img {
+  width: 200px;
+}
+input[type=checkbox].readmore {
+  display: none;
+}
+input[type=checkbox].readmore + label {
+  display: block;
+  color: blue;
+  text-decoration: underline;
+}
+input[type=checkbox].readmore + label:after {
+  content: "more...";
+}
+input[type=checkbox].readmore + label + p {
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.5s ease;
+}
+input[type=checkbox].readmore:checked {
+  background: red;
+}
+input[type=checkbox].readmore:checked + label:after {
+  content: "less...";
+}
+input[type=checkbox].readmore:checked + label + p {
+  max-height: 100px;
+}
+
 
 .containers {
   width: 520px;
