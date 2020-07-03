@@ -44,12 +44,13 @@ input[type=checkbox].readmore {
   display: none;
 }
 
-/*input[type=checkbox].readmore + label {
+input[type=checkbox].readmore+label {
   display: block;
   color: blue;
   text-decoration: underline;
 }
-input[type=checkbox].readmore + label:after {
+
+/*input[type=checkbox].readmore + label:after {
   content: "more...";
 }
 input[type=checkbox].readmore + label + p {
