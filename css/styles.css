@@ -27,11 +27,12 @@ input[type=checkbox].image-expandable {
   display: none;
 }
 
-/*input[type=checkbox].image-expandable + label {
+input[type=checkbox].image-expandable+label {
   float: left;
   margin: 5px;
 }
-input[type=checkbox].image-expandable:checked {
+
+/*input[type=checkbox].image-expandable:checked {
   background: red;
 }
 input[type=checkbox].image-expandable:checked + label img {
