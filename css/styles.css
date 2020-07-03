@@ -68,12 +68,11 @@ input[type=checkbox].readmore:checked+label:after {
   content: "less...";
 }
 
-/*input[type=checkbox].readmore:checked + label + p {
+input[type=checkbox].readmore:checked+label+p {
   max-height: 100px;
 }
 
-
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
