@@ -40,10 +40,11 @@ input[type=checkbox].image-expandable:checked+label img {
   width: 200px;
 }
 
-/*input[type=checkbox].readmore {
+input[type=checkbox].readmore {
   display: none;
 }
-input[type=checkbox].readmore + label {
+
+/*input[type=checkbox].readmore + label {
   display: block;
   color: blue;
   text-decoration: underline;
